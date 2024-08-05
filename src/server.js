@@ -13,7 +13,7 @@ app.use(helmet());
 
 // CORS configuration
 const corsOptions = {
-  origin: "https://aditya-singh-5014.github.io", // Replace with your frontend domain
+  origin: "https://aditya-singh-5014.github.io/dating-app/", // Replace with your frontend domain
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   allowedHeaders: "Origin,X-Requested-With,Content-Type,Accept,Authorization",
 };
