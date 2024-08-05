@@ -22,11 +22,11 @@ mongoose
   .catch((err) => console.error("MongoDB connection error:", err));
 
 // Import and use routes
-app.use("/api/auth", require("./routes/authRoutes"));
-app.use("/api/users", require("./routes/userRoutes"));
-app.use("/api/matches", require("./routes/matchRoutes"));
-app.use("/api/messages", require("./routes/messageRoutes"));
-app.use("/api/settings", require("./routes/settingsRoutes"));
+app.use("/src/auth", require("./routes/authRoutes"));
+app.use("/src/users", require("./routes/userRoutes"));
+app.use("/src/matches", require("./routes/matchRoutes"));
+app.use("/src/messages", require("./routes/messageRoutes"));
+app.use("/src/settings", require("./routes/settingsRoutes"));
 
 // WebSocket setup
 const server = http.createServer(app);

@@ -1,3 +1,3 @@
 // index.js
-const server = require("./api/server");
+const server = require("./src/server");
 module.exports = server;
